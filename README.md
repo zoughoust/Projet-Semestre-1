@@ -1,0 +1,2 @@
+# Refonte graphique d'un site
+Ce projet est une refonte graphique d'une partie d'un site web. Comme premier projet de développement, le site devait être responsive en utilisant un framework. Nous avons donc fait le choix d'utiliser PureCSS, un framework comparable à Bootstrap. Ce projet nous a permis une première approche dans le monde du développement web FrontEnd et a été utile dans l'utilisation des bases de l'HTML et du CSS.
