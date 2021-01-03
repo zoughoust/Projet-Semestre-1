@@ -1,0 +1,228 @@
+
+.tw {
+  font-family: 'tw-cen-mt', sans-serif;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1.7em;
+    color: #7f8c8d;
+    font-size: 13px;
+}
+
+p,
+h2,
+h3,
+h4,
+h5,
+h6,
+label {
+    color: black;
+}
+.petitTitre{
+  font-size: 1.2em;
+}
+.grandTitre{
+  font-size: 2em;
+}
+
+a {
+  text-decoration: none;
+}
+.header {
+  z-index: 3;
+  position: fixed;
+}
+.home-menu {
+    padding: 1.1em;
+    text-align: center;
+    box-shadow: 0 1px 1px rgba(0,0,0, 0.10);
+    background-color: #A24392;
+    opacity: 85%;
+}
+.pure-menu .pure-menu-fixed {
+    /* Fixed menus normally have a border at the bottom. */
+    border-bottom: none;
+    /* I need a higher z-index here because of the scroll-over effect. */
+}
+
+.home-menu a {
+    color: white;
+    text-align: right;
+}
+.home-menu li a:hover,
+.home-menu li a:focus {
+    background: none;
+    border: none;
+    color: grey;
+}
+.pure-menu-item{
+  color: white;
+  font-weight: 400;
+  font-size: 1.7vw;
+  opacity: 100%;
+}
+
+.ENTEDT{
+  text-align: right;
+  margin-top: -3.25%;
+}
+
+.premPlan {
+  z-index: 4;
+  position: fixed;
+  top:0;
+}
+.premPlan img {
+  width: 20%;
+  height: auto;
+  margin-top: 3px;
+  margin-left: 6px;
+}
+
+.imgDiv {
+  padding-bottom: -25%;
+  position: absolute;
+  vertical-align: bottom;
+  display: block;
+}
+
+.articleDiv {
+  background-image: url("./img/t1.png");
+  top: 100%;
+  margin-right: 20%;
+}
+
+.footer{
+  border-top-style: solid;
+  border-color: #A24392;
+  margin-top: 10%;
+}
+
+.menu-form {
+  color: black;
+  font-weight: 400;
+  font-size: 130%;
+  opacity: 90%;
+  text-align: center;
+}
+
+.menu-form li a:hover,
+.menu-form li a:focus {
+    background: none;
+    border: none;
+    color: grey;
+    opacity: 80%;
+}
+
+.footer-form {
+  font-size: 110%;
+  color: black;
+  text-align: center;
+  font-weight: 400;
+  margin-top: 3%;
+}
+.univartoisTaille {
+  width: auto;
+  height: 100px;
+}
+#jaune{
+  background-color: #D7DB2D;
+}
+#orange{
+  background-color: #EB8915;
+}
+#bleu{
+  background-color: #00AF9E;
+}
+
+.articleDiv {
+  margin-left: 15%;
+}
+.titre{
+  color: white;
+  text-align: center;
+  position: absolute;
+  margin-top: 10%;
+  font-size: 2.5em;
+  color: #c5c7c5;
+
+}
+
+#uqac{
+  height: 100px;
+  width: auto;
+}
+#bci{
+  height: 200px;
+  width: auto;
+}
+#dundalk{
+  height: 200px;
+  width: auto;
+}
+#pablo{
+  height: 200px;
+  width: auto;
+}
+
+.cv {
+	margin-right: 5%;
+}
+
+
+form {
+  /* Uniquement centrer le formulaire sur la page */
+  margin: 0 auto;
+  width: 400px;
+  /* Encadré pour voir les limites du formulaire */
+  padding: 1em;
+  margin-top: 2%;
+  border: 1px solid #CCC;
+  border-radius: 1em;
+}
+
+form div + div {
+  margin-top: 1em;
+}
+
+label {
+  /* Pour être sûrs que toutes les étiquettes ont même taille et sont correctement alignées */
+  display: inline-flex;
+  width: 150px;
+  text-align: right;
+}
+
+input, textarea {
+  width: 300px;
+  box-sizing: border-box;
+  border: 1px solid #999;
+}
+
+input:focus, textarea:focus {
+  border-color: #000;
+}
+
+textarea {
+  vertical-align: top;
+
+  height: 5em;
+}
+
+.button {
+  padding-left: 90px;
+}
+
+button {
+  margin-left: .5em;
+}
+
+.drapeau {
+  height: 5%;
+  width: auto;
+}
